@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Curso HTML</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<!--......................-->
+<body>
+  <h1>Conceptos basicos html</h1>
+  <hr>
+  <h2>Tablas</h2>
+  <table style="width: 500px;">
+    <thead>
+      <th>Precio</th>
+      <th>Producto</th>
+    </thead>
+    <tbody>
+      <tr>
+      <td>
+        Hola Beats
+      </td>
+      <td> Gratis </td>
+    </tr>
+    <tr>
+      <td>
+        Hola Beats
+      </td>
+      <td> Gratis </td>
+    </tr>
+    <tr>
+      <td>
+        Hola Beats
+      </td>
+      <td> Gratis </td>
+    </tr>
+    <tr>
+      <td>
+        Hola Beats
+      </td>
+      <td> Gratis </td>
+    </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td>
+          Total: Gratis
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <hr>
+  <h2>Listas</h2>
+  <ul>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+  </ul>
+
+  <ol>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>
+      <ol>
+        <li style="list-style-type: lower-roman;">Elemento</li>
+        <li style="list-style-type: lower-roman;">Elemento</li>
+        <li style="list-style-type: lower-roman;">Elemento</li>
+        <li style="list-style-type: lower-roman;">Elemento</li>
+        <li style="list-style-type: lower-roman;">Elemento</li>
+      </ol>
+    </li>
+  </ol>
+  <hr>
+  <form action="/formulario" method="post" >
+    <h2>Formularios</h2>
+    <label for="input">Nombre: </label>
+    <input value="Sin nombre" type="text" id="input" name="nombre" placeholder="Nombre"/>
+    <br>
+    <br>
+    <label for="input2">Apellido: </label>
+    <input value="Sin apellido" type="text" id="input2" name="apellido" placeholder="Apellido"/>
+    <br>
+    <br>
+    <label for="comment" >Comentario:</label>
+    <br>
+    <textarea id="comment" placeholder="Ingresa un comentario" cols="20" rows="5"> Comentario </textarea>
+    <br>
+    <br>
+    <button type="button" >Boton estatico</button>
+    <button type="reset" >Reset</button>
+    <button type="submit" >Submit</button>
+
+  </form>
+  <hr>
+  <p>Texto y <span style="color:blueviolet">span</span></p>
+  <a target="_blank" href="https://www.google.com">Hipervinculos</a>
+  <!--Comentario-->
+  <hr>
+  <h2>Imagenes</h2>
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" width="50%" height="50%" />
+  <hr>
+  
+</body>
+</html>
